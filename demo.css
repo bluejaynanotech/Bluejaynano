@@ -1,0 +1,135 @@
+body{
+	background-color:   #607608;
+	font-family: Roboto,Sans-serif;
+
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+.form{
+	height: 1100px;
+	width: 600px;
+	margin: auto;
+}
+.imag{
+    width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 3%;
+	right: 30%;padding: 20px;
+}
+.required{
+font-size: 13px;
+color: red;
+}
+.title-div{
+	height: 150px;
+	width: 600px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	border-top: 8px solid #3fb93f;
+	padding: 25px;
+	font-style: italic;
+	
+}
+.name-div, .college-div, .gmail-div, .mobile-div{
+	height: 150px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color:#3fb93f;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}
+.btn1{
+	height: 36px;
+	width: 100px;
+	background-color:#3fb93f;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+    text-align: center;
+}
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.ope select{
+	width: 400px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	font-size: 15px;
+	text-align:center;
+}
+	.ope1{
+		width: 400px;
+		border: 0;
+		outline: 0;
+		border-bottom: 1.5px solid #DCD7D7;
+		font-size: 15px;
+		padding-top: 20px;
+		padding-left: 25px;
+		padding-bottom: 25px;
+		padding-right: 25px;
+		font-size: 15px;
+		text-align:center;
+}
+.ope2 select{
+	width: 400px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	text-align:center;
+}
+
+	

@@ -1,0 +1,186 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+   body
+   {
+     display: grid;
+     place-items: center;
+     height: 100vh;
+     background: #4f6d7a;
+     font-family: 'Courier New' , Courier, monospace;        
+   }  
+   .card
+   {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 425px;
+      height: 575px;
+      padding: 1em;
+      text-align: center;
+      background: #171614;
+      border-radius: .8em;
+      color: #858585;
+      cursor: pointer;
+      overflow: hidden;
+      z-index: 1;
+      }
+      .card:hover {
+        color: #fff;
+      }         
+      .container {
+        display: grid;
+        place-items:center;
+        position: relative;
+        width: 433px;
+        height: 583px;
+        border-radius: 1em;
+        background: linear-gradient(50deg,#2a5a3b,#1e4886);
+        overflow: hidden;
+      }
+        .container::before {
+        content: "";
+        position: absolute;
+        width: 625px;
+        height: 58px;
+        top: 0;
+        right: 20px;
+        transition: 1.9s;
+        background: linear-gradient(50deg, #00ff59, #02b3ff);
+        transform: rotate(-45deg) transtate(0, -100px);
+        }
+        .container:hover:before{
+         animation: cardeffect 2s;
+        }
+        @keyframes cardeffect{
+         100%{
+          transform: rotate(-45deg) translate(0, 625px);
+          }
+        }
+
+        body{
+
+            margin: 0;
+            padding: 0;
+        }
+
+        body::before{
+            content: '';
+            position:fixed ;
+            width: 100vw;
+            height: 100vh;
+            background-image: url(https://www.teahub.io/photos/full/187-1879150_imac-21-5-full-glass-windows-7.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            
+        
+
+
+        }
+        .card{
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            -webkit-transform:translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+
+            width: 420px;
+            height: 575px;
+            padding: 80px 40px;
+
+            background-image: url(https://www.teahub.io/photos/full/187-1879150_imac-21-5-full-glass-windows-7.jpg);
+        }
+        .avatar{
+            position: absolute;
+            width: 100px;
+            height: 150px;
+            border-radius: 70%;
+            overflow: hidden;
+            top: calc(-80px/2);
+            left: calc(50% -40px);
+        }
+
+        .card h4{
+
+            margin: 0;
+            padding: 0 0 20px;
+            color: hsl(48, 100%, 49%);
+            text-align: center;
+            text-transform: uppercase;
+           font-size: 20px;
+           
+        }
+
+        .card p{
+
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .card input{
+
+            width: 100%;
+            margin-bottom: 20px;
+
+        }
+
+        .card input[type=text]{
+
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #c0c0c0;
+            font-size: 16px;
+
+
+        }
+        .card input[type=password]{
+
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #fff;
+            font-size: 16px;
+
+        }
+        .card input[type=submit]{
+
+            height: 40px;
+            color: #fff;
+            font-size: 15px;
+            background: red;
+            cursor: pointer;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            margin-top: 15%;
+        }
+        .card input[type=reset]{
+
+            height: 40px;
+            color: #fff;
+            font-size: 15px;
+            background: red;
+            cursor: pointer;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            margin-top: 15%;
+        }
